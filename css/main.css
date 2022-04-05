@@ -79,10 +79,16 @@ h6 {
   margin: 1.375em;
 }
 
-.section-subsecundaria,
-p {
-  text-align: start;
+.section-secundaria{
+  text-align: center;
+  margin-bottom: 50px;
+  
 }
+
+.section-secundaria p {
+  text-align:center;
+}
+
 
 .hidden {
   overflow: hidden;
@@ -184,9 +190,14 @@ p {
 }
 
 .article-main2 {
-  padding: 20px;
+  text-align: center;
+
   letter-spacing: 0.5px;
   line-height: 28px;
+}
+
+.article-main2 p {
+
 }
 
 p {
@@ -230,6 +241,11 @@ p {
 /*inicio do responsivo*/
 
 @media screen and (min-width: 48.75em) {
+
+  .section-secundaria {
+    
+    
+  }
   .top-header-logo {
     float: left;
   }
@@ -262,7 +278,6 @@ p {
     background-color: #7c3792;
   }
 
-  .top-content-title,
   .top-content-subtitle {
     color: white;
   }
@@ -275,6 +290,9 @@ p {
 
   .article-main2 {
     text-align: left;
+    
+
+    
   }
 
   .top-button {
